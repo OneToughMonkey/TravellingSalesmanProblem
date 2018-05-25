@@ -4,12 +4,12 @@ This project contains MATLAB-code to solve the travelling salesman problem using
 
 In more detail:
 
-# bruteforceTSP.m
+# bruteforce.m
 Solves the problem with a simple brute force algorithm.
 Requires a n x n - distance (or cost) matrix as input.
 Fails for large n.
 
-# dynamicTSP.m
+# dynamic.m
 Solves the problem with a performance improved dynamic programming algorithm.
 Requires a n x n - distance (or cost) matrix as input
 
