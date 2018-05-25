@@ -2,7 +2,7 @@
 
 This project contains MATLAB-code to solve the travelling salesman problem using two different approaches.
 
-# In more detail:
+In more detail:
 
 # bruteforceTSP.m
 Solves the problem with a simple brute force algorithm.
