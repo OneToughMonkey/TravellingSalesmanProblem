@@ -3,8 +3,7 @@
 % Returns:  - length of best possible route that passes exactly once through all 3 of the locations,
 %           . the equivalent ordering of n in a 1 x n - matrix (the best route)
 %
-function distance = dynamic(distanceMatrix)
-%% Calculate distance from each city to start/end point
+function [distance, route] = dynamic(distanceMatrix)
 
 n = size(distanceMatrix, 1);
 
@@ -68,6 +67,7 @@ for k = 1:n-1
     end
 end
 
-distance = table(1, end);
+distance = table{1}(1, end);
+route = table{2}(1, end, :);
 
 end
