@@ -73,11 +73,11 @@ hold on;
 set(gca, 'YScale', 'log');
 axis([3, xMax, 0, inf]);
 xlabel('n');
-ylabel('runtime');
+ylabel('sek');
 plot(nRange, bruteforceRunTimes, 'DisplayName', 'Brutforce algorithm');
 plot(nRange, dynamicRunTimes, 'DisplayName', 'Dynamic programming');
 legend('Location','northwest');
-annotation('textbox',[.4 1 0 0],'String','Runtimes','FitBoxToText','on');
+annotation('textbox',[.4 1 0 0],'String','Execution times','FitBoxToText','on');
 hold off;
 
 %% Print test results
