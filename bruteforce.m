@@ -1,6 +1,6 @@
 %% Crack the travelling salesman problem with a simple brute force algorithm
 % Accepts: a n x n - matrix of distance between at least 3 different places
-% Returns: length of best possible route that passes exactly once through all 3 of the places , the equivalent ordering of n in a 1 x n - matrix (the best route)
+% Returns: length of best possible route that passes exactly once through all of the places , the equivalent ordering of n in a 1 x n - matrix (the best route)
 
 % Throws Matlab Exception for n > 12 due to memory overflow in perms() function in authors configuration
 function [bestDistance, bestRoute] = bruteforce(distanceMatrix)
